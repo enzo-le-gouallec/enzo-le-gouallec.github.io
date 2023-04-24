@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2? family= Nerko+One & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+body {
+	background: #eee;
+	text-align: center;
+	padding-top: 50px;
+}
+
+h1 {
+	
+	padding-right : 400px;
+	padding-bottom: 200px;
+	font-family: 'Nerko One', cursive;
+	
+	
+	
+}
+
+h2 {
+	
+	
+	color: #0ac3a7;
+	margin-top: 0;
+	
+}
+
+p {
+	margin: 2em auto 0;
+	color: #777;
+	font-size: 1.1em;
+	line-height: 1.5;
+	max-width: 20em;
+}
+.oclock-select{
+	
+	font-family: 'Rubik Distressed', cursive;
+	font-size: 60px;
+	font-weight: 300;
+}
+
+.o{
+	color: rgb(194, 16, 16);
+}
+.k{
+	color: rgb(194, 16, 16);
+}
+
+
+/* animation */
+.l-1{
+	animation: 0.3s ease-in-out 0.2s animation-letter forwards;
+	color: rgb(194, 16, 16);
+	position: absolute;
+	transform: translateX(-18px);
+	opacity: 0;
+	
+	
+	
+	
+}
+
+@keyframes animation-letter {
+	from{
+	transform: translate(-18px, 0px);
+	
+	
+	}
+	to{
+	transform: translate(-18px, 150px);
+	opacity: 1;
+	
+	
+	}
+	
+}
+
+.l-2{
+	animation: 0.3s ease-in-out 0.3s animation-letter-2 forwards;
+	color: rgb(194, 16, 16);
+	position: absolute;
+	opacity: 0;
+	
+	
+	
+	
+}
+
+@keyframes animation-letter-2 {
+	from{
+		opacity: 0;
+	}
+	to{
+	transform: translateY(150px);
+	opacity: 1;
+	
+	
+	}
+	
+}
+
+.l-3{
+	animation: 0.3s ease-in-out 0.4s animation-letter-3 forwards;
+	position: absolute;
+	transform: translateX(1px);
+	opacity: 0;
+	
+	
+	
+	
+}
+
+@keyframes animation-letter-3 {
+	from{
+	transform: translate(7px, 0px);
+	
+	
+	}
+	to{
+	transform: translate(7px, 150px);
+	opacity: 1;
+	
+	
+	}
+	
+}
+
+.l-4{
+	animation: 0.3s ease-in-out 0.5s animation-letter-4 forwards;
+	position: absolute;
+	transform: translateX(1px);
+	opacity: 0;
+	
+	
+	
+	
+}
+
+@keyframes animation-letter-4 {
+	from{
+	transform: translate(7px, 0px);
+	
+	
+	}
+	to{
+	transform: translate(23px, 150px);
+	opacity: 1;
+	
+	
+	}
+	
+}
+
+.l-5{
+	animation: 0.3s ease-in-out 0.6s animation-letter-5 forwards;
+	position: absolute;
+	transform: translateX(1px);
+	opacity: 0;
+	
+	
+	
+	
+}
+
+@keyframes animation-letter-5 {
+	from{
+	transform: translate(7px, 0px);
+	
+	
+	}
+	to{
+	transform: translate(38px, 150px);
+	opacity: 1;
+	
+	
+	}
+	
+}
+
+.l-6{
+	animation: 0.3s ease-in-out 0.7s animation-letter-6 forwards;
+	position: absolute;
+	transform: translateX(1px);
+	opacity: 0;
+	
+	
+	
+	
+}
+
+@keyframes animation-letter-6 {
+	from{
+	transform: translate(7px, 0px);
+	
+	
+	}
+	to{
+	transform: translate(52px, 150px);
+	opacity: 1;
+	
+	
+	}
+	
+}
+.l-7{
+	animation: 0.3s ease-in-out 0.7s animation-letter-7 forwards;
+	position: absolute;
+	transform: translateX(1px);
+	opacity: 0;
+	
+	
+	
+	
+}
+
+@keyframes animation-letter-7 {
+	from{
+	transform: translate(7px, 0px);
+	
+	
+	}
+	to{
+	transform: translate(68px, 150px);
+	opacity: 1;
+	
+	
+	}
+	
+}
+.l-8{
+	animation: 0.3s ease-in-out 0.8s animation-letter-8 forwards;
+	position: absolute;
+	transform: translateX(1px);
+	opacity: 0;
+	color: rgb(194, 16, 16);
+	
+	
+	
+	
+}
+
+@keyframes animation-letter-8 {
+	from{
+	transform: translate(7px, 0px);
+	
+	
+	}
+	to{
+	transform: translate(85px, 150px);
+	opacity: 1;
+	
+	
+	}
+	
+}
+.l-9{
+	animation: 0.3s ease-in-out 0.9s animation-letter-9 forwards;
+	position: absolute;
+	transform: translateX(1px);
+	opacity: 0;
+	color: rgb(194, 16, 16);
+	
+	
+	
+	
+	
+}
+
+@keyframes animation-letter-9 {
+	from{
+	transform: translate(7px, 0px);
+	
+	
+	}
+	to{
+	transform: translate(100px, 150px);
+	opacity: 1;
+	
+	
+	}
+	
+}
+.l-10{
+	animation: 0.3s ease-in-out 1s animation-letter-10 forwards;
+	position: absolute;
+	transform: translateX(1px);
+	opacity: 0;
+	
+	
+	
+	
+}
+
+@keyframes animation-letter-10 {
+	from{
+	transform: translate(7px, 0px);
+	
+	
+	}
+	to{
+	transform: translate(130px, 150px);
+	opacity: 1;
+	
+	
+	}
+	
+}
+.l-11{
+	animation: 0.3s ease-in-out 1.1s animation-letter-11 forwards;
+	position: absolute;
+	transform: translateX(1px);
+	opacity: 0;
+	color: rgb(194, 16, 16);
+	
+	
+	
+	
+}
+
+@keyframes animation-letter-11 {
+	from{
+	transform: translate(7px, 0px);
+	
+	
+	}
+	to{
+	transform: translate(145px, 150px);
+	opacity: 1;
+	
+	
+	}
+	
+}
+.l-12{
+	animation: 0.3s ease-in-out 1.2s animation-letter-12 forwards;
+	position: absolute;
+	transform: translateX(1px);
+	opacity: 0;
+	color: rgb(194, 16, 16);
+	
+	
+	
+	
+}
+
+@keyframes animation-letter-12 {
+	from{
+	transform: translate(7px, 0px);
+	
+	
+	}
+	to{
+	transform: translate(161px, 150px);
+	opacity: 1;
+	
+	
+	}
+	
+}
+.l-13{
+	animation: 0.3s ease-in-out 1.3s animation-letter-13 forwards;
+	position: absolute;
+	transform: translateX(1px);
+	opacity: 0;
+	
+	
+	
+	
+}
+
+@keyframes animation-letter-13 {
+	from{
+	transform: translate(7px, 0px);
+	
+	
+	}
+	to{
+	transform: translate(177px, 150px);
+	opacity: 1;
+	
+	
+	}
+	
+}
+
+.oclock-select{
+	animation: 0.3s ease-in 1.7s oclock forwards;
+	position: absolute;
+	transform: scale(6);
+	opacity: 0;
+
+}
+@keyframes oclock {
+	0%{
+	transform: scale(6);
+	font-weight: 900;
+	}
+	95%{font-weight: 900;}
+	100%{
+	transform: translate(215px, 135px);
+	opacity: 1;
+	
+	
+	}
+	
+}
+
+.broke{
+	position: absolute;
+	width: 200px;
+	z-index: -1;
+	transform: translate(150px,-100px);
+	animation: 0.1s ease-in 2s broke forwards;
+	opacity: 0;
+}
+@keyframes broke {
+	from{
+	
+	}
+	to{
+	
+	opacity: 1;
+	
+	
+	}
+	
+}
+
+h2{
+	animation: 0.8s ease-in-out 2.3s h2 forwards;
+	opacity: 0;
+}
+@keyframes h2 {
+	from{
+	
+	}
+	to{
+
+		opacity: 1;
+	
+	
+	}
+	
+}
+
+
+
+
+
+.neumorph{
+	margin: auto;
+	width: 50%;
+	border-radius: 65px;
+	padding-bottom: 5%;
+	padding-top: 5%;
+
+	animation: 1s ease-in 3.1s neumorph forwards;
+	overflow: hidden;
+}
+
+
+
+@keyframes neumorph {
+	from{
+	
+	}
+	to{
+		border-radius: 65px;
+background: #e0e0e0;
+box-shadow: inset 10px 10px 20px #bababa,
+            inset -10px -10px 20px #ffffff;
+
+	
+	
+	}
+	
+}
+
+.p-1{
+	padding:auto;
+	transform: translateX(190%);
+
+	
+
+	animation: 1s ease-out 4.1s p-1 forwards;
+}
+
+
+
+@keyframes p-1 {
+	from{
+	
+	}
+	to {transform: translateX(0%);}
+	
+}
+
+
