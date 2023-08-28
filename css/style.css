@@ -2,6 +2,7 @@
 
  html {
     overflow-x: hidden;
+    scroll-behavior: smooth; 
  }
 
 body{
@@ -11,11 +12,12 @@ body{
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     word-spacing: 2px;
+    
 }
 
 section{
    padding-top: 200px;
-    
+   
 }
 
 h1{
@@ -341,6 +343,7 @@ box-shadow:  5px 5px 10px #08b1e4,
 
 
 
+
 .site-slider:hover {
     
     transform: scale(1.05);
@@ -390,7 +393,7 @@ box-shadow:  5px 5px 10px #08b1e4,
     display: flex;
     flex-direction: column;
     order: 4;
-    transform: translate(0px, 50px);
+    transform: translate(0px, -50px);
     opacity: 0;
     transition: 1.5s ease;
     transition-delay: 0.6s;
@@ -1147,8 +1150,6 @@ margin-left: 200%;
                 text-align: center;
                 border-radius: 10%;
             background: #151C21;
-            box-shadow:  5px 5px 10px #08b1e4,
-                         -5px -5px 10px #063141;
                 
             }
             
@@ -1209,7 +1210,20 @@ margin-left: 200%;
              
              .chevron{
                 width: 100px;
+                transition: 10ms;
              }
+
+             .chevron:hover{
+                transform: scale(1);
+                border-radius: 0px;
+                filter: none;
+            }
+
+            .chevron:active{
+                transform: scale(1.05);
+                border-radius: 10px;
+                filter: drop-shadow(0px 30px 20px #39AFD4);
+            }
 
             .left{
                 order: 2;
@@ -1223,7 +1237,7 @@ margin-left: 200%;
             }
 
             .description-site{
-                transform: translate(0px, 0px);
+                transform: translate(0px, -50px);
             }
 
             #diplomes h2{
@@ -1483,8 +1497,6 @@ margin-left: 200%;
      
 
   }
-
-
 
 
 
