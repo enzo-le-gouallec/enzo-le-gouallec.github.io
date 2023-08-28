@@ -20,56 +20,70 @@ toggleMenu();
 //slider portfolio
 const sliderData = [
     {
-      imageUrl: 'img/locus-screen.png',
-      linkUrl: 'https://www.example.com/link1',
-      description: 'Description de l\'image 1'
+      imageUrl: "img/locus-screen.png",
+      linkUrl: "https://www.example.com/link1",
+      nameSite: "Locus",
+      technoSite: "html, css, javascript"
     },
     {
-      imageUrl: 'image2.jpg',
-      linkUrl: 'https://www.example.com/link2',
-      description: 'Description de l\'image 2'
-    },
-    {
-        imageUrl: 'image3.jpg',
-        linkUrl: 'https://www.example.com/link2',
-        description: 'Description de l\'image 3'
+      imageUrl: "img/wait-site.png",
+      linkUrl: "#portfolio",
+      nameSite: "Projets en cours",
+      technoSite: "..."
     }
-    
-    ,
     // Ajoute d'autres objets de slider ici
   ];
   
   let currentSlideIndex = 0;
   
   const sliderImage = document.querySelector('.site-slider');
-  const sliderDescription = document.querySelector('.description-site');
+  const sliderNameSite = document.querySelector('.name-site');
+  const sliderTechnoSite = document.querySelector('.techno-site');
   const prevButton = document.querySelector('.left');
   const nextButton = document.querySelector('.right');
-  
   function updateSlide(index) {
-    if (index < 0) {
-      currentSlideIndex = sliderData.length - 1;
-    } else if (index >= sliderData.length) {
-      currentSlideIndex = 0;
-    }
-  
+    
+    currentSlideIndex = (index + sliderData.length) % sliderData.length;
+    
+    
     const currentSlide = sliderData[currentSlideIndex];
     sliderImage.src = currentSlide.imageUrl;
     sliderImage.alt = currentSlide.description;
-    sliderDescription.textContent = currentSlide.description;
+    sliderNameSite.textContent = currentSlide.nameSite;
+    sliderTechnoSite.textContent = currentSlide.technoSite;
+    
+
+
+    setTimeout(() => {
+        sliderImage.style.opacity = 1;
+        sliderNameSite.style.transition = " 0.5s";
+        sliderNameSite.style.opacity = 1;
+        sliderTechnoSite.style.transition = " 0.5s";
+        sliderTechnoSite.style.opacity = 1;
+    }, 200);
   }
   
   prevButton.addEventListener('click', () => {
-    updateSlide(currentSlideIndex --);
+    sliderImage.style.opacity = 0;
+    sliderNameSite.style.opacity = 0;
+    sliderTechnoSite.style.opacity = 0;
+    setTimeout(() => {
+    
+    updateSlide(currentSlideIndex - 1);
+}, 400);
   });
   
   nextButton.addEventListener('click', () => {
-    console.log("ok")
-    updateSlide(currentSlideIndex ++);
+    sliderImage.style.opacity = 0;
+    sliderNameSite.style.opacity = 0;
+    sliderTechnoSite.style.opacity = 0;
+    setTimeout(() => {
     
+    updateSlide(currentSlideIndex + 1);
+}, 400);
   });
   
-  // Initialisation avec le premier élément
+// Initialisation slider
   updateSlide(currentSlideIndex);
 
 
