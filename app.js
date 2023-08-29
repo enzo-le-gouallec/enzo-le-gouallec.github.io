@@ -21,13 +21,13 @@ toggleMenu();
 const sliderData = [
     {
       imageUrl: "img/locus-screen.png",
-      linkUrl: "https://www.example.com/link1",
+      linkUrl: "https://locusbar.fr/",
       nameSite: "Locus",
       technoSite: "html, css, javascript"
     },
     {
       imageUrl: "img/wait-site.png",
-      linkUrl: "#portfolio",
+      linkUrl: "https://enzo-le-gouallec.github.io/#portfolio",
       nameSite: "Projets en cours",
       technoSite: "..."
     }
