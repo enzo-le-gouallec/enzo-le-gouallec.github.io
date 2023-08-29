@@ -27,7 +27,7 @@ const sliderData = [
     },
     {
       imageUrl: "img/wait-site.png",
-      linkUrl: "https://enzo-le-gouallec.github.io/#portfolio",
+      linkUrl: "#portfolio",
       nameSite: "Projets en cours",
       technoSite: "..."
     }
@@ -37,10 +37,12 @@ const sliderData = [
   let currentSlideIndex = 0;
   
   const sliderImage = document.querySelector('.site-slider');
+  const linkSite = document.querySelector('.link-site')
   const sliderNameSite = document.querySelector('.name-site');
   const sliderTechnoSite = document.querySelector('.techno-site');
   const prevButton = document.querySelector('.left');
   const nextButton = document.querySelector('.right');
+
   function updateSlide(index) {
     
     currentSlideIndex = (index + sliderData.length) % sliderData.length;
@@ -48,6 +50,7 @@ const sliderData = [
     
     const currentSlide = sliderData[currentSlideIndex];
     sliderImage.src = currentSlide.imageUrl;
+    linkSite.href = currentSlide.linkUrl
     sliderImage.alt = currentSlide.description;
     sliderNameSite.textContent = currentSlide.nameSite;
     sliderTechnoSite.textContent = currentSlide.technoSite;
@@ -137,7 +140,7 @@ const observerLoisirs = new IntersectionObserver((entries) => {
 const observerContactForm = new IntersectionObserver((entries) => {
     for(const entry of entries) {
         if (entry.isIntersecting) {
-            entry.target.classList.add('form-reveal')
+            entry.target.classList.add('contact-container-reveal')
         }
     }
     }, {
@@ -156,7 +159,7 @@ const observerContactForm = new IntersectionObserver((entries) => {
         })
 
 observerContactIa.observe(document.querySelector('.shadow-scroll'));
-observerContactForm.observe(document.querySelector('.hide-form'));
+observerContactForm.observe(document.querySelector('.hide-contact-container'));
 observerLoisirs.observe(document.querySelector('.travel-container'));
 observerLoisirs.observe(document.querySelector('.learn-container'));
 observerLoisirs.observe(document.querySelector('.sport-container'));
