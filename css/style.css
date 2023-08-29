@@ -20,6 +20,10 @@ section{
    
 }
 
+strong{
+    font-weight: 100;
+}
+
 h1{
     
     text-align: center;
@@ -72,6 +76,10 @@ h2 span{
     -webkit-text-fill-color: transparent;
 }
 
+
+h3{
+    font-size: 45px;
+}
 p{
     color: white;
     font-size: 19.3px;
@@ -312,7 +320,7 @@ box-shadow:  5px 5px 10px #08b1e4,
 
 .macbook{
     z-index: 2;
-    transform: translate(0px, -100px);
+    transform: translate(0px, -110px);
    width: 780px;
    height: 344px;
    filter: drop-shadow(30px 20px 20px black);
@@ -563,6 +571,10 @@ box-shadow:  5px 5px 10px #08b1e4,
     overflow: hidden;
 }
 
+#contact p{
+    font-size: 25px;
+}
+
 #contact .shadow-blue{
     z-index: 3;
 }
@@ -597,7 +609,7 @@ box-shadow:  5px 5px 10px #08b1e4,
 }
 
 
-.form{
+.contact-container{
     overflow: hidden;
     padding-top: 30px;
     color: white;
@@ -616,7 +628,7 @@ box-shadow:  5px 5px 10px #08b1e4,
              -5px -5px 17px #202a32;
 }
 
-.hide-form{
+.hide-contact-container{
     background-color: #151C21;
     width: 120%;
     height: 150%;
@@ -626,11 +638,47 @@ box-shadow:  5px 5px 10px #08b1e4,
     filter: blur(50px);
 }
 
-.form-reveal{
+.contact-container-reveal{
     transform: translate(120%,120%);
     border-radius: 200%;
     filter: blur(50px);
    
+}
+
+.network-container{
+    margin-top: 40px;
+    display: flex;
+    gap: 80px;
+}
+
+.network-container img{
+    width: 80px;
+    
+}
+
+.network-container a{
+    padding: 10px;
+    transition: 1.5s;
+    border-radius: 20px;
+}
+
+.network-container a:hover{
+    box-shadow: inset 14px 14px 28px #0b0e11,
+    inset -14px -14px 28px #202a32;
+    cursor: pointer;
+}
+
+.img-contact{
+    position: absolute;
+    transform: translateY(450px);
+    filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+    opacity: 1;
+    width: 200px;
+    transition: 0.5s ease;
+}
+
+.img-contact:hover{
+    opacity: 0;
 }
 
 .shadow-scroll{
@@ -645,37 +693,22 @@ box-shadow:  5px 5px 10px #08b1e4,
     
 }
 
+
 .shadow-scroll-reveal{
 margin-left: 200%;
 }
 
-.form label{
-    font-size: 19.3px;
-}
 
-.form h3{
-    font-size: 31px;
-}
 
-.input-text {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 19.3px;
-    width: 300px;
-    height: 50px;
-    background-color: black;
-    border: 0;
-    color: white;
-    border-radius: 53px;
-    background: #1d4059;
-    box-shadow: inset 14px 14px 28px #0b0e11,
-            inset -14px -14px 28px #202a32;
+
     
-}
 
-.form textarea{
+
+.hole{
     border: 0;
-    padding: 40px;
+    padding: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
 
     color: white;
     border-radius: 53px;
@@ -684,17 +717,6 @@ margin-left: 200%;
             inset -14px -14px 28px #202a32;
 }
 
-.submit {
-    margin-top: 30px;
-    color: white;
-    font-size: 19.3px;
-    width: 200px;
-    height: 50px;
-    border-radius: 38px;
-    background: linear-gradient(145deg, #161e23, #13191e);
-    box-shadow:  10px 10px 20px #080b0d,
-             -10px -10px 20px #222d35;
-}
 
 
 /*responsive*/
@@ -1098,7 +1120,7 @@ margin-left: 200%;
             filter: blur(40px);
         }
 
-        .form{
+        .contact-container{
             transform: scale(0.7);
             right: 110px;
         }
@@ -1331,7 +1353,7 @@ margin-left: 200%;
                 filter: blur(40px);
             }
     
-            .form{
+            .contact-container{
                 transform: scale(0.5);
                 right: 230px;
             }
