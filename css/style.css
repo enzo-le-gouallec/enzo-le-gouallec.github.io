@@ -79,6 +79,7 @@ h2 span{
 
 h3{
     font-size: 45px;
+    font-family: 'Oswald', sans-serif;
 }
 p{
     color: white;
@@ -674,12 +675,8 @@ box-shadow:  5px 5px 10px #08b1e4,
     filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
     opacity: 1;
     width: 200px;
-    transition: 0.5s ease;
 }
 
-.img-contact:hover{
-    opacity: 0;
-}
 
 .shadow-scroll{
     z-index: 2;
@@ -1177,12 +1174,12 @@ margin-left: 200%;
             
             .skill-container p{
                 
-                top: 30%;
+                top: 40%;
                 left: 50%;
                 transform: translate(-50%,-50%);
                 z-index: 4;
                 position: absolute;
-                font-size: 30px;
+                font-size: 20px;
                 
             }
             
@@ -1379,6 +1376,14 @@ margin-left: 200%;
                 margin-bottom: 30px;
                 
                 
+            }
+
+            .my-description p{
+                font-size: 13.5px;
+            }
+
+            .my-description span{
+                font-size: 14.5px;
             }
 
 
