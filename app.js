@@ -170,9 +170,9 @@ observerMacbook.observe(document.querySelector('.right'));
 observerMacbook.observe(document.querySelector('.description-site'));
 observerMacbook.observe(document.querySelector('.site-slider'));
 observerMacbook.observe(document.querySelector('.macbook'));
-observerSkills.observe(document.querySelectorAll('.skill-container').forEach((a) => {
-observerSkills.observe(a)
-}))
+document.querySelectorAll('.skill-container').forEach(e => {
+    observerSkills.observe(e)
+  })
 
 
 
