@@ -177,7 +177,7 @@ footer{
     position: absolute;
     background-color:#39AFD4 ;
     width: 600px;
-    filter: blur(115px);
+    filter: blur(50px);
     height: 400px;
     border-radius: 100px;
     transform: translate(-200px,-150px);
