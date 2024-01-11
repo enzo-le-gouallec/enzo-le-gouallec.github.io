@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/enzo-le-gouallec.github.io/%20/static/css/main.2c99c905.css",
+    "main.js": "/enzo-le-gouallec.github.io/%20/static/js/main.194ec803.js",
+    "static/js/787.71df535f.chunk.js": "/enzo-le-gouallec.github.io/%20/static/js/787.71df535f.chunk.js",
+    "static/media/start-background.png": "/enzo-le-gouallec.github.io/%20/static/media/start-background.cdce3ca3350574db2409.png",
+    "static/media/create-account-background.png": "/enzo-le-gouallec.github.io/%20/static/media/create-account-background.8f39d94a8f457d0f3d53.png",
+    "static/media/glass.png": "/enzo-le-gouallec.github.io/%20/static/media/glass.7b93f44d1aa562469561.png",
+    "static/media/puddle-two.png": "/enzo-le-gouallec.github.io/%20/static/media/puddle-two.bf58700f0f1bd1bba459.png",
+    "static/media/logo.png": "/enzo-le-gouallec.github.io/%20/static/media/logo.d2c2ecf57859ed2d5560.png",
+    "static/media/logo-welcome.png": "/enzo-le-gouallec.github.io/%20/static/media/logo-welcome.9c20b2bada9e45b04281.png",
+    "static/media/SCAPE-Blanc-contour-noir.png": "/enzo-le-gouallec.github.io/%20/static/media/SCAPE-Blanc-contour-noir.ebf82f99b079d9457cd3.png",
+    "static/media/SAVOR.png": "/enzo-le-gouallec.github.io/%20/static/media/SAVOR.0e55800a2ee9641719fc.png",
+    "index.html": "/enzo-le-gouallec.github.io/%20/index.html",
+    "main.2c99c905.css.map": "/enzo-le-gouallec.github.io/%20/static/css/main.2c99c905.css.map",
+    "main.194ec803.js.map": "/enzo-le-gouallec.github.io/%20/static/js/main.194ec803.js.map",
+    "787.71df535f.chunk.js.map": "/enzo-le-gouallec.github.io/%20/static/js/787.71df535f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c99c905.css",
+    "static/js/main.194ec803.js"
+  ]
+}
