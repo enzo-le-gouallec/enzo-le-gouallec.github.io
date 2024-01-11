@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c99c905.css",
+    "main.js": "/static/js/main.6f5f7bac.js",
+    "static/js/787.71df535f.chunk.js": "/static/js/787.71df535f.chunk.js",
+    "static/media/start-background.png": "/static/media/start-background.cdce3ca3350574db2409.png",
+    "static/media/create-account-background.png": "/static/media/create-account-background.8f39d94a8f457d0f3d53.png",
+    "static/media/glass.png": "/static/media/glass.7b93f44d1aa562469561.png",
+    "static/media/puddle-two.png": "/static/media/puddle-two.bf58700f0f1bd1bba459.png",
+    "static/media/logo.png": "/static/media/logo.d2c2ecf57859ed2d5560.png",
+    "static/media/logo-welcome.png": "/static/media/logo-welcome.9c20b2bada9e45b04281.png",
+    "static/media/SCAPE-Blanc-contour-noir.png": "/static/media/SCAPE-Blanc-contour-noir.ebf82f99b079d9457cd3.png",
+    "static/media/SAVOR.png": "/static/media/SAVOR.0e55800a2ee9641719fc.png",
+    "index.html": "/index.html",
+    "main.2c99c905.css.map": "/static/css/main.2c99c905.css.map",
+    "main.6f5f7bac.js.map": "/static/js/main.6f5f7bac.js.map",
+    "787.71df535f.chunk.js.map": "/static/js/787.71df535f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c99c905.css",
+    "static/js/main.6f5f7bac.js"
+  ]
+}
